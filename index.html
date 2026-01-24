@@ -1,179 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Thunderbird Cleaners | Las Vegas Dry Cleaning</title>
 
-\f0\fs24 \cf0 <!DOCTYPE html>\
-<html lang="en">\
-<head>\
-  <meta charset="UTF-8" />\
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />\
-  <title>Thunderbird Cleaners | Las Vegas Dry Cleaning</title>\
-\
-  <style>\
-    :root \{\
-      --primary-blue: #0a4da3;\
-      --light-blue: #e6f0ff;\
-      --dark-blue: #06336b;\
-      --gray: #f4f6f8;\
-    \}\
-\
-    * \{\
-      box-sizing: border-box;\
-      margin: 0;\
-      padding: 0;\
-      font-family: "Segoe UI", Tahoma, sans-serif;\
-    \}\
-\
-    body \{\
-      background-color: var(--gray);\
-      color: #333;\
-      line-height: 1.6;\
-    \}\
-\
-    header \{\
-      background: linear-gradient(135deg, var(--primary-blue), var(--dark-blue));\
-      color: white;\
-      padding: 60px 20px;\
-      text-align: center;\
-    \}\
-\
-    .logo \{\
-      font-size: 36px;\
-      font-weight: bold;\
-      letter-spacing: 2px;\
-    \}\
-\
-    .logo span \{\
-      color: #9fd3ff;\
-    \}\
-\
-    header p \{\
-      margin-top: 10px;\
-      font-size: 18px;\
-    \}\
-\
-    section \{\
-      max-width: 1100px;\
-      margin: auto;\
-      padding: 60px 20px;\
-    \}\
-\
-    .about,\
-    .services,\
-    .contact \{\
-      background: white;\
-      border-radius: 12px;\
-      padding: 40px;\
-      margin-bottom: 40px;\
-      box-shadow: 0 10px 25px rgba(0,0,0,0.08);\
-    \}\
-\
-    h2 \{\
-      color: var(--primary-blue);\
-      margin-bottom: 20px;\
-    \}\
-\
-    .services ul \{\
-      display: grid;\
-      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));\
-      gap: 15px;\
-      list-style: none;\
-    \}\
-\
-    .services li \{\
-      background: var(--light-blue);\
-      padding: 15px;\
-      border-radius: 8px;\
-      font-weight: 500;\
-    \}\
-\
-    .contact-info p \{\
-      margin-bottom: 10px;\
-      font-size: 18px;\
-    \}\
-\
-    .contact-info strong \{\
-      color: var(--primary-blue);\
-    \}\
-\
-    .cta \{\
-      margin-top: 20px;\
-      display: inline-block;\
-      background: var(--primary-blue);\
-      color: white;\
-      padding: 14px 30px;\
-      border-radius: 30px;\
-      text-decoration: none;\
-      font-weight: bold;\
-      transition: background 0.3s ease;\
-    \}\
-\
-    .cta:hover \{\
-      background: var(--dark-blue);\
-    \}\
-\
-    footer \{\
-      background: #0a4da3;\
-      color: white;\
-      text-align: center;\
-      padding: 20px;\
-      font-size: 14px;\
-    \}\
-\
-    @media (max-width: 600px) \{\
-      header \{\
-        padding: 40px 15px;\
-      \}\
-      .logo \{\
-        font-size: 28px;\
-      \}\
-    \}\
-  </style>\
-</head>\
-<body>\
-\
-  <header>\
-    <div class="logo">\
-      THUNDERBIRD <span>CLEANERS</span>\
-    </div>\
-    <p>Classic Care. Modern Clean.</p>\
-    <p>Las Vegas, NV</p>\
-  </header>\
-\
-  <section>\
-    <div class="about">\
-      <h2>About Us</h2>\
-      <p>\
-        Thunderbird Cleaners is a Las Vegas\'96based dry cleaning service committed\
-        to quality, speed, and customer care to ensure your garments are taken care of like our own. Inspired by great service, we combine old-school reliability with modern cleaning\
-        technology.\
-      </p>\
-    </div>\
-\
-    <div class="services">\
-      <h2>Our Services</h2>\
-      <ul>\
-        <li>Dry Cleaning</li>\
-        <li>Laundry Services</li>\
-        <li>Shirt Pressing</li>\
-        <li>Alterations & Repairs</li>\
-        <li>Wedding Dress Cleaning</li>\
-        <li>Same-Day Service Available</li>\
-      </ul>\
-    </div>\
-\
-    <div class="contact">\
-      <h2>Contact & Location</h2>\
-      <div class="contact-info">\
-        <p><strong>Address:</strong> 9730 W. Tropicana Ave, Ste. 100<br>Las Vegas, NV</p>\
-        <p><strong>Phone:</strong> <a href="tel:17028731369">(702) 873-1369</a></p>\
-      </div>\
-\
-      <a class="cta" href="tel:17028731369">Call Now</a>\
-    </div>\
-  </section>\
-\
-  <footer>\
-    \'a9 2026 Thunderbird Cleaners \'b7 Las Vegas, NV\
-  </footer>\
-\
-</body>\
-</html>\
-}
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #fafafa;
+      color: #333;
+    }
+
+    header {
+      background: url("https://images.pexels.com/photos/4049722/pexels-photo-4049722.jpeg?auto=compress&cs=tinysrgb&w=1200")
+                  center/cover no-repeat;
+      text-align: center;
+      padding: 120px 20px;
+      color: white;
+    }
+
+    header h1 {
+      font-size: 3rem;
+      margin: 0;
+    }
+
+    header p {
+      font-size: 1.4rem;
+      margin-top: 10px;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: auto;
+      padding: 30px 20px;
+    }
+
+    h2 {
+      color: #2563eb; /* blue accent */
+      margin-top: 1.5em;
+    }
+
+    ul {
+      line-height: 1.6;
+      padding-left: 20px;
+    }
+
+    .contact-info {
+      background: #ffffff;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0px 0px 8px rgba(0,0,0,0.1);
+      margin-top: 10px;
+    }
+
+    .btn-call {
+      display: inline-block;
+      background: #2563eb;
+      color: white;
+      text-decoration: none;
+      padding: 12px 24px;
+      border-radius: 6px;
+      font-weight: bold;
+      margin-top: 10px;
+    }
+
+    .btn-call:hover {
+      background: #1e40af;
+    }
+
+    footer {
+      text-align: center;
+      margin-top: 40px;
+      font-size: 0.9rem;
+      color: #666;
+      padding-bottom: 20px;
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <h1>Thunderbird Cleaners</h1>
+  <p>Premium Dry Cleaning & Laundry in Las Vegas</p>
+</header>
+
+<div class="container">
+  <h2>About Us</h2>
+  <p>
+    At Thunderbird Cleaners, we treat your clothes with care like they’re our own.
+    Fast service, premium quality, and friendly service — every time.
+  </p>
+
+  <h2>Our Services</h2>
+  <ul>
+    <li>Professional Dry Cleaning</li>
+    <li>Laundry & Pressing</li>
+    <li>Shirt & Suit Care</li>
+    <li>Alterations & Repairs</li>
+    <li>Wedding Dress Cleaning</li>
+    <li>Same-Day Service Available</li>
+  </ul>
+
+  <h2>Contact & Location</h2>
+  <div class="contact-info">
+    <p><strong>Address:</strong> 9730 W. Tropicana Ave, Ste. 100, Las Vegas, NV</p>
+    <p><strong>Phone:</strong> (702) 873-1369</p>
+    <a class="btn-call" href="tel:7028731369">Call Now</a>
+  </div>
+</div>
+
+<footer>
+  &copy; 2026 Thunderbird Cleaners · Las Vegas, NV
+</footer>
+
+</body>
+</html>
